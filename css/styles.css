@@ -1,0 +1,25 @@
+/* custom propertys */
+:root {
+  /* fuentes */
+  --font-Arial: Arial, Helvetica, sans-serif;
+
+  /* color */
+  --blanco: #fff;
+  --negro: #000;
+}
+
+/*no afectar paddin borde margin*/
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /*1rem  = 10 px*/
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: var(--font-Arial);
+}
